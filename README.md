@@ -1,10 +1,21 @@
-# For GNOME
-
+# General
 Enable Zoxide:
 (add to config.fish)
 ```fish
 zoxide init fish | source
 ```
+
+Running Flatpak apps with shortcuts:
+- get app name
+```fish
+flatpak list --app
+```
+- crate a shortcut using command
+```fish
+flatpak run <name>
+```
+
+## For GNOME
 
 Enable window resize with SUPER+RMB:
 ```fish
